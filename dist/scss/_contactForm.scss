@@ -1,0 +1,117 @@
+.contact-form{
+  box-shadow: 0 0 0.8rem #757474;;
+}
+
+#contacForm, #contacForm2 {
+  
+  .form-group {
+    position: relative;
+  }
+
+  .form-control {
+    background: transparent;
+    border-style: none;
+     background: $light;
+    margin-bottom: 1rem;
+    border-radius: 0;
+    cursor: pointer;  
+    font-size: 0.75rem;
+    border: 1px solid transparent;
+
+    &:hover{
+      border: 1px solid $info;
+    }
+    &:focus {
+      outline-offset: 0;
+      box-shadow: none;
+    }
+  }
+
+  .title {
+    bottom: 0.3rem;
+    transition: all 0.3s;
+    color: $dark;
+    font-size: 0.7rem;
+  }
+
+  label.error {
+    color: #d81f1f;
+    position: absolute;
+    bottom: 0rem;
+    right:0;
+    font-size: 0.8rem;
+    transition: all 0.3s;
+    &.focus, &.dirty{
+      bottom:60%;
+    }
+  }
+  .title.focus {
+    bottom: 70%;
+  }
+
+  .dirty {
+    bottom: 70%;
+  }
+
+  textarea ~ .dirty,
+  textarea ~ .title.focus {
+    bottom: 75% !important;
+  }
+
+  input.inputMaterial:valid ~ .title {
+    bottom: 70% !important;
+  }
+
+  input.inputMaterial:valid ~ .error {
+    bottom: 60% !important;
+  }
+  .submit-btn {
+    border-radius:0;
+    color: $dark;
+    font-weight: bold;
+    transition: all 0.3s; 
+    font-size: 0.875rem;
+    border:none;
+    background: $dark;
+    border-radius: 0.5rem;
+    &:hover {
+      background: $primary;
+      transform: scale(1.05); 
+    }
+  }
+}
+
+#loading, #loading2 { 
+  display: none;
+  position: absolute;
+  text-align: center;
+  background: url(../images/loader.gif) top center no-repeat;
+  color: #fff;
+  font-size: 20px;
+  height: 50px;
+  left: 0;
+  right: 0;
+  top: 20%;
+  padding-top: 10%;
+}
+
+.contact-form{
+  min-height: 465px;
+}
+
+
+#contacForm2{
+  .title{
+    font-size: 1rem; 
+    padding-bottom: 0.2rem;
+  }
+  label.error {
+    bottom: 0.9rem;
+    right: 1.5rem ;
+  }
+  @include media-breakpoint-down(sm) {
+  .form-group{
+    width: 100% !important;
+  }
+}
+}
