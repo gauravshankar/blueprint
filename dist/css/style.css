@@ -8029,9 +8029,10 @@ html {
   line-height: 1.5;
 }
 #banner h1 {
-  line-height: 73px;
-  font-size: 82px;
-  font-weight: 700;
+  line-height: 96px;
+    font-size: 100px;
+    font-weight: 700;
+    margin-top: 40px;
 }
 #banner h1 span {
   color: #1fb890;
@@ -8053,6 +8054,8 @@ html {
 .logo {
   padding: 49px 54px;
 }
+
+
 .subheading {
   font-weight: 600;
   font-size: 1.25rem;
@@ -8643,6 +8646,7 @@ footer .img-wrap {
   margin-left: -139px;
   
 } 
+
 .success-outer-section{
   border-radius: 0;
     padding: 3px;
@@ -8720,6 +8724,12 @@ footer .img-wrap {
   }
   .logo{
     padding: 49px 25px;
+  }
+  .logo img{
+    width: 150px;
+  }
+  .section h1{
+    margin-bottom:25px;
   }
 }
 
