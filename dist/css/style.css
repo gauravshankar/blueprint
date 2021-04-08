@@ -8024,7 +8024,7 @@ html {
   background-position: bottom;
   position: relative;
   overflow: hidden;
-  background-size: cover;
+  background-size:  100% 100%;
   position: relative;
   line-height: 1.5;
 }
@@ -8643,7 +8643,7 @@ footer .img-wrap {
   height: 266px;
 }
 .bannertext{
-  margin-left: -139px;
+  margin-left: -126px;
   
 } 
 
@@ -8715,7 +8715,18 @@ footer .img-wrap {
   opacity: 1 !important;
 }
 
-@media (max-width: 767.98px) { 
+@media (min-width: 992px) and (max-width: 1024px) {
+  .bannertext{
+    margin-left: -26px;
+  }
+  .logo{
+    padding-left: 26px;
+  }  
+  #banner{
+    background-size: 100% 100%;
+  }
+}
+@media (max-width: 768px) { 
   .bannertext{
   margin-left: 0;
   }
