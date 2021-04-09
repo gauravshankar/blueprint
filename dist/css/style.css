@@ -8714,6 +8714,9 @@ footer .img-wrap {
 .modal-wrapper .close:hover{
   opacity: 1 !important;
 }
+.what-we-have-row{
+  padding-left:63px;
+}
 
 @media (min-width: 992px) and (max-width: 1024px) {
   .bannertext{
@@ -8724,6 +8727,9 @@ footer .img-wrap {
   }  
   #banner{
     background-size: 100% 100%;
+  }
+  .what-we-have-row{
+    padding-left: 61px;
   }
 }
 @media (max-width: 768px) { 
@@ -8741,6 +8747,9 @@ footer .img-wrap {
   }
   .section h1{
     margin-bottom:25px;
+  }
+  .what-we-have-row{
+    padding:0;
   }
 }
 
