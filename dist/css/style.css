@@ -8024,7 +8024,7 @@ html {
   background-position: bottom;
   position: relative;
   overflow: hidden;
-  background-size:  100% 100%;
+  background-size:  cover;
   position: relative;
   line-height: 1.5;
 }
@@ -8643,7 +8643,7 @@ footer .img-wrap {
   height: 266px;
 }
 .bannertext{
-  margin-left: -126px;
+  /* margin-left: -126px; */
   
 } 
 
