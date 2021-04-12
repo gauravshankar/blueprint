@@ -8028,9 +8028,15 @@ html {
   position: relative;
   line-height: 1.5;
 }
+@media (max-width:1366px) {
+  #banner{
+    background-size:  100% 100%;
+  }
+}
+
 #banner h1 {
   line-height: 96px;
-    font-size: 100px;
+  font-size: 91px;
     font-weight: 700;
     margin-top: 40px;
 }
@@ -8643,7 +8649,7 @@ footer .img-wrap {
   height: 266px;
 }
 .bannertext{
-  /* margin-left: -126px; */
+  margin-right: 126px;
   
 } 
 
@@ -8720,7 +8726,7 @@ footer .img-wrap {
 
 @media (min-width: 992px) and (max-width: 1024px) {
   .bannertext{
-    margin-left: -26px;
+    margin-right: 26px;
   }
   .logo{
     padding-left: 26px;
@@ -8734,7 +8740,7 @@ footer .img-wrap {
 }
 @media (max-width: 768px) { 
   .bannertext{
-  margin-left: 0;
+  margin-right: 0;
   }
   .list-md-center{
     padding-left: 80px;
