@@ -8020,11 +8020,11 @@ html {
 }
 
 #banner {
-  background: url("../../images/seed-landing.jpg") no-repeat;
+  background: url("../../images/banner-new.png") no-repeat;
   background-position: bottom;
   position: relative;
   overflow: hidden;
-  background-size:  cover;
+  background-size:  100% 100%;
   position: relative;
   line-height: 1.5;
 }
@@ -8033,10 +8033,14 @@ html {
     background-size:  100% 100%;
   }
 }
-
+.mvp-img-wrapper{
+  position: absolute;
+  right:12px;
+  height:282px
+}
 #banner h1 {
   line-height: 96px;
-  font-size: 91px;
+  font-size: 82px;
     font-weight: 700;
     margin-top: 40px;
 }
@@ -8736,6 +8740,12 @@ footer .img-wrap {
   }
   .what-we-have-row{
     padding-left: 61px;
+  }
+  .mvp-img-wrapper{
+    position: absolute;
+    right: 12px;
+    height: 246px;
+    bottom: -55px;
   }
 }
 @media (max-width: 768px) { 
