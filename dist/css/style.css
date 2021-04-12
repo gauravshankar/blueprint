@@ -78,6 +78,9 @@ body {
 .f-16{
   font-size: 16px;
 }
+.f-12{
+  font-size: 12px;
+}
 .touch-button{
   padding: 14px 21px;
   background-color: #000000;
@@ -8035,8 +8038,10 @@ html {
 }
 .mvp-img-wrapper{
   position: absolute;
-  right:12px;
-  height:282px
+  right: 12px;
+  height: 220px;
+  left: 0;
+  bottom: -55px;
 }
 #banner h1 {
   line-height: 96px;
