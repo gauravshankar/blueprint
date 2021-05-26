@@ -1,0 +1,16 @@
+//Common for Development Services and Drives Ahead sections
+.card-layout{
+    &-icon {
+        width: 3rem;
+        height: 3rem;
+        margin-bottom: 0.5rem;
+    }
+    &-link {
+        font-family: $font-family-heading;
+        font-weight: 700;
+    }
+}
+.drives-ahead {
+    margin-top: 9.8rem;
+    margin-bottom: 6rem;
+}

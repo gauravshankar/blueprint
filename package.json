@@ -1,0 +1,20 @@
+{
+    "name": "talentica",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build:sass": "node-sass src/assets/styles/scss/main.scss src/assets/styles/css/style.css",
+        "map:sass": "node-sass --watch --recursive --output css --source-map true --source-map-contents src/assets/styles/scss/main.scss src/assets/styles/css/style.css",
+        "watch:sass": "node-sass src/assets/styles/scss/main.scss src/assets/styles/css/style.css -w"
+    },
+    "author": "GauravS",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^4.14.1"
+    },
+    "dependencies": {
+        "bootstrap": "^5.0.1",
+        "http-server": "^0.12.3"
+    }
+}

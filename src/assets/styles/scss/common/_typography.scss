@@ -1,0 +1,25 @@
+.text-gradient,
+%text-gradient {
+    background-image: -webkit-linear-gradient($talentica-gradient);
+    background-image: linear-gradient($talentica-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #10b857;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-heading;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    @extend .text-gradient;
+    font-family: $font-family-heading;
+}

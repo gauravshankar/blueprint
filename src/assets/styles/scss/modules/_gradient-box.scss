@@ -1,0 +1,28 @@
+$border: 0.2rem !default;
+
+.gradient-box-outline {
+    background-color: $white;
+    background-clip: padding-box;
+    border: solid $border transparent;
+    border-radius: 2rem;
+    position: relative;
+    padding: 2.4rem 2rem;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin: -$border; /* !importanté */
+        border-radius: inherit; /* !importanté */
+        background-image: -webkit-linear-gradient($talentica-gradient);
+        background-image: linear-gradient($talentica-gradient);
+    }
+}
+
+// .gradient-box {
+//     background-image: -webkit-linear-gradient($talentica-gradient);
+//     background-image: linear-gradient($talentica-gradient);
+// }

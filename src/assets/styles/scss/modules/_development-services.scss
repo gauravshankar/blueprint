@@ -1,0 +1,11 @@
+.development-services {
+    &-text {
+        @include media-breakpoint-up(lg) {
+            min-height: 22rem;
+        }
+    }
+    .card-layout-icon {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+}

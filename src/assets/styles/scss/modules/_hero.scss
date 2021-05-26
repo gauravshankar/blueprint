@@ -1,0 +1,16 @@
+$hero-image-height: 54.8rem;
+
+.hero-section {
+    @include retina-background-image("../../images/hero", png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    width: 100%;
+    max-height: $hero-image-height;
+    min-height: $hero-image-height;
+    .hero-text {
+        height: $hero-image-height;
+        display: flex;
+        align-items: center;
+    }
+}
